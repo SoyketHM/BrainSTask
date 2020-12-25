@@ -1,0 +1,36 @@
+{
+    "admin": {
+        "users": [
+            "*"
+        ],
+        "books": [
+            "*"
+        ],
+        "comments": [
+            "*"
+        ]
+    },
+    "blogger": {
+        "users": [
+            "*"
+        ],
+        "blogs": [
+            "*"
+        ],
+        "comments": [
+            "GET",
+            "DELETE"
+        ]
+    },
+    "commenter": {
+        "users": [
+            "GET"
+        ],
+        "blogs": [
+            "GET"
+        ],
+        "comments": [
+            "*"
+        ]
+    }
+}
